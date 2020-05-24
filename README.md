@@ -71,7 +71,7 @@ Bitte nutzen Sie, soweit möglich, `foreach`-Schleifen zur Iteration und legen S
 
 - Nach außen wird die IP-Adresse über eine Property vom Typ `String` angesprochen. Greifen Sie für Getter und Setter auf die statischen Methoden `IPTools.IPAddressToString(...)` bzw. `IPTools.StringToIPAddress(...)` zurück.
 
-- Vervollständigen Sie die Unterstützung für IPv6-Adressen in der `IPTools`-Klasse (Methoden `IPv6AddressToString(...)` und `StringToIPv6Address(...)`). Sie bestehen aus 16 Bytes und werden in hexadezimaler Form notiert, z. B.: `ff:ee:dd:cc:bb:aa:99:88:77:66:55:44:33:22:11:00`
+- Vervollständigen Sie die Unterstützung für IPv6-Adressen in der `IPTools`-Klasse (Methoden `IPv6AddressToString(...)` und `StringToIPv6Address(...)`). Sie bestehen aus 16 Bytes und werden in hexadezimaler Form als 8 Blöcke (je 2 Bytes) notiert, z. B.: `ffee:ddcc:bbaa:9988:7766:5544:3322:1100`
 
 - Testen Sie Ihre Implementierung in der `Main(...)`-Methode.
 
